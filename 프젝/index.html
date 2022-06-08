@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momentum Clone</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="top-row">
+            <!--왼쪽 산단 링크, 오른쪽 상단 날씨-->
+        </div>
+        <div class="center-row">
+            <div class="app-clock">
+                <h1>09:00</h1>
+            </div>
+            <div class="app-greeting">
+                <form class="app-name">
+                    <input type="text" aria-label="name" placeholder="이름을 입력하세요">
+<!-- aria(Accessible Rich Internet Applications): 웹 접근성 향상을 위한 속성 집합 (시각 장애인을 위한)-->
+                </form>
+                <h4 class="app-greeting display_off"></h4>
+            </div>
+            <div>
+                <div class="app-todoTitle">오늘 할 중요한 일들</div>
+                <form class="app-todpForm">
+                    <input type="text" aria-label="todo" class="app-todoInput">
+                </form>
+                <ul class="app-todoList"></ul>
+            </div>
+        </div>
+        <div class="bottom-row">
+            <!--왼쪽 하단 이미지 설명, 가운데 하단 오늘의 명언, 오른쪽 하단 todo-->
+        </div>
+    </div>
+    <script src="./scripts/app-todo.js"></script>
+    <script src="./scripts/app-greeting.js"></script>
+    <script src="./scripts/app-test.js"></script>
+    <script src="./scripts/app-background.js"></script>
+    <script src="./scripts/app-clock.js"></script>
+</body>
+</html>
