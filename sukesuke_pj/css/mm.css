@@ -1,0 +1,65 @@
+.teemo{
+    width: 500px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+  }
+  h2{
+    text-align: center;
+	  background: rgb(77, 124, 255);
+	  color: rgb(255, 255, 255);
+	  padding: 10px;
+  
+  }
+  input[type="text"]{
+    width: 385px;
+    height: 30px;
+    outline: 0;
+    border: none;
+    font-size: 1.5em;
+    background: white;
+    margin-right: 10px;
+    padding: 5px;
+  }
+  button{
+    width: 40px;
+    height: 40px;
+    font-size: 3px;
+    background-color: rgb(77, 124, 255);
+    border-radius: 4px;
+    outline: 0;
+    border: none;
+  }
+  .todolist{
+    background-color: white;
+    margin-top: 20px;
+    padding: 10px 40px 10px 0px;
+  }
+  ul{
+    list-style: none;
+  }
+  li{
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 1.3em;
+  }
+  a{
+    float: right;
+    text-align: right;
+    color: red;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  .delete{
+    background-color: #f1e390;
+    text-align: center;
+    padding: 0px 4px 0px 4px;
+    color: white;
+    cursor: pointer;
+  }
+  .b_cl{
+    font-size: 25px;
+  }

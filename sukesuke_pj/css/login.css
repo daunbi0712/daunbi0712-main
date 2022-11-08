@@ -1,0 +1,115 @@
+.div_name{
+    background-color: rgb(77, 124, 255);
+    padding: 1px;
+    font-size: 25px;
+}
+h4{
+    color: rgb(255, 255, 255); 
+}
+/*ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ*/
+.div_name>h4{
+    text-align: center;
+}
+/*ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ*/
+body{margin: 0;}
+/*ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ*/
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 254, 208) ;
+    height: 60px;
+    margin: 0px auto;
+}
+/*ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ*/
+nav a{
+    color: rgb(255, 255, 255);
+    padding: 5px 5px 5px 5px;
+    margin: 10px; 
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+/*ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ*/
+nav a:hover{
+    background-color: rgb(77, 124, 255);
+    color: rgb(255, 255, 255);
+}
+/*ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ*/
+#container{
+    display: flex;
+    flex-wrap: wrap;
+}
+/*ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ*/
+main {
+    margin: auto;
+    text-align: center;
+    background-color: rgb(225, 249, 255);
+    width: 500px;
+    height: 300px; 
+}
+/*
+aside{
+    flex-grow: 3;
+    background-color: #ffefef;
+    padding: 30;
+}
+/*ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ*/
+/* article{
+    flex: 7;
+    background-color: white;
+    padding: 20;
+} */
+/*ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ*/
+.fakeimg{
+    background:rgb(61, 105, 122);
+    width: 100%;
+    padding: 20px;
+}
+/*ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+footer{
+    padding: 20px;
+    text-align: center;
+    background: gray;
+}
+/*ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ*/
+/*반응형 웹*/
+@media all and (max-width: 600px){
+    #container, nav{
+        flex-direction: column;
+    }
+}
+
+.main {
+    width: 250px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.logo {
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+#login {
+    width: 100%;
+    background-color: skyblue;
+    border-color: transparent;
+    color: white;
+}
+
+.account {
+    display: block;
+    margin-bottom: 3px;
+    padding: 3px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+
+#alert {
+    border-color: transparent;
+}
